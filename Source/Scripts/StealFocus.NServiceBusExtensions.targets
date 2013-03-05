@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project 
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- IMPORTANT - you must import these targets for the build scripts to function. -->
+  <Import Project="..\packages\StealFocus.Build.1.1.30117.0\Scripts\StealFocus.Build.tasks" />
+
+  <PropertyGroup>
+    <CompanyName>StealFocus</CompanyName>
+    <Culture>en-GB</Culture>
+    <ProductName>NServiceBusExtensions</ProductName>
+    <StrongNamePublicKey>00240000048000009400000006020000002400005253413100040000010001008785a17d682b22bcd67c65f313412202caa9ff3bedfb5da36686b50fa35c5a5816a940b6e50bb14447dfc4a4c58e396d20284297478e04f542fc71c0ffa7dd1a53f45a62cb76536c244949c851a37fa24441ecbb2929b821f4968e4f4aaaf4de3482e927c7a7a48324929fd4cff7f6637fe7208805f1a611787594c35c9b18ba</StrongNamePublicKey>
+    <StrongNamePublicKeyToken>d4abcf0fae4939b3</StrongNamePublicKeyToken>
+    <StyleCopVersion>4.7</StyleCopVersion>
+  </PropertyGroup>
+
+</Project>
