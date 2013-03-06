@@ -18,8 +18,8 @@ namespace $rootnamespace$
 
         public void Stop()
         {
-            // It is preferred not to unsubscribe from subscriptions (here, in code) so when 
-			// the service is stopped, it continues to receive messages from the publisher.
+            // It is preferred not to unsubscribe from subscriptions (here, in code) so when
+            // the service is stopped, it continues to receive messages from the publisher.
         }
     }
 }
