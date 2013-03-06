@@ -1,7 +1,6 @@
 namespace $rootnamespace$.Configuration
 {
     using System;
-    using System.Diagnostics;
 
     public static class MessageType
     {
