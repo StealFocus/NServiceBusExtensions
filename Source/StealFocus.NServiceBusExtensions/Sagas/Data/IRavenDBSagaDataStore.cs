@@ -1,6 +1,8 @@
 ﻿namespace StealFocus.NServiceBusExtensions.Sagas.Data
 {
-    public interface IRavenDBSagaDataStore<T>
+    using NServiceBus.Saga;
+
+    public interface IRavenDBSagaDataStore<out T> where T : IContainSagaData
     {
         T[] GetSagaDatas(string connectionStringKey);
 
